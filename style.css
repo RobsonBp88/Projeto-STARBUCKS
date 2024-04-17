@@ -1,0 +1,141 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+    /*tag * se aplica para a página toda*/
+
+}
+
+
+body{
+
+padding-top: 20px;
+padding-right: 50px;
+padding-left: 50px;
+padding-bottom: 20px;
+
+
+}
+
+.conteudo {
+
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+.caixa-texto {
+
+width: 600px;
+
+
+
+
+}
+
+
+.caixa-imagem {
+
+width: 600px;
+display: flex;
+justify-content: flex-end;
+margin-top: 250px;
+
+}
+
+
+
+button{
+
+    background-color: #017143; /*cor de fundo*/
+    color: #ffffff; /*cor da fonte*/
+    border: none; /*borda*/
+    padding: 10px; /*altera o tamanho dentro do botão*/
+    border-radius: 20px; /*arredonda o botão*/
+
+}
+
+
+h2{
+
+    font-size: 60px; /*tamanho da fonte*/
+    font-weight: 500; /*grossura da fonte*/
+
+}
+
+span{
+
+color:#017143;
+font-size: 70px;
+font-weight: 900;
+
+}
+
+p{
+
+    font-size: 16px; /*tamanho da fonte*/
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.logo{
+
+width: 80px;
+
+}
+
+.copão{
+
+width: 200px;
+z-index: 2;
+
+}
+
+.copo-pequeno{
+
+width: 60px;
+cursor: pointer;
+transition: 1s;
+
+
+}
+
+.copo-pequeno:hover {
+
+transform: translateY(-35px);
+
+}
+
+.menu{
+
+display: flex;
+justify-content: center;
+
+
+
+}
+
+
+.circulo {
+
+
+background: #017143;
+width: 100%;
+height: 100%;
+padding-bottom: 55%;
+position: absolute;
+top: 0;
+left: 0;
+clip-path: circle(500px at right 800px);
+
+}
+
+
+
